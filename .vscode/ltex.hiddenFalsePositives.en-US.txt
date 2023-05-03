@@ -1,0 +1,5 @@
+{"rule":"COMMA_PARENTHESIS_WHITESPACE","sentence":"^\\Q#show: project.with(\n  title: \"ENG 182 Final Paper\",\n  authors: (\n    \"Hongtao Zhang\",\n  ),\n)\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\Q#show: project.with(\n  title: \"ENG 182 Final Paper\",\n  authors: (\n    \"Hongtao Zhang\",\n  ),\n)\\E$"}
+{"rule":"COMMA_PERIOD","sentence":"^\\Q#show: project.with(\n  title: \"ENG 182 Final Paper\",\n  authors: (\n    \"Hongtao Zhang\",\n  ),\n)\\E$"}
+{"rule":"COMMA_PARENTHESIS_WHITESPACE","sentence":"^\\Q#figure(caption: [Schooling for Slavery])[\n  #image(\"component 1.svg\")\n]\\E$"}
+{"rule":"COMMA_PARENTHESIS_WHITESPACE","sentence":"^\\Q#figure(caption: [Slavery Fight Back])[\n  #image(\"component 2.svg\")\n]\\E$"}
