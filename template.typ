@@ -4,7 +4,10 @@
 #let project(title: "", authors: (), body) = {
   // Set the document's basic properties.
   set document(author: authors, title: title)
-  set page(numbering: "1", number-align: center)
+  set page(header: [
+    #align(right)[#counter(page).display()]
+  ])
+
 
   // Save heading and body font families in variables.
   let body-font = "Times New Roman"
@@ -13,6 +16,8 @@
 
   // Set body font family.
   set text(font: body-font, lang: "en", size: 12pt, weight: 500)
+
+  set heading(numbering: "I.i")
 
   // Set paragraph spacing.
   show par: set block(above: 2em, below: 2em)
