@@ -17,7 +17,7 @@
   // Set body font family.
   set text(font: body-font, lang: "en", size: 12pt, weight: 500)
 
-  set heading(numbering: "I.i")
+  set heading(numbering: "1.1")
 
   // Set paragraph spacing.
   show par: set block(above: 2em, below: 2em)
